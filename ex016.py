@@ -1,3 +1,5 @@
-from math import floor
+from math import trunc
 num = float(input('Digite um número: '))
-print('O número {} tem a parte Inteira {}'.format(num, floor(num) ))
+print('O valor digitado foi {} e sua parte inteira é {}'.format(num, trunc(num)))
+
+
